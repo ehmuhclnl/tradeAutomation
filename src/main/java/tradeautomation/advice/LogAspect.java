@@ -1,14 +1,9 @@
-package com.example.demo.login.aspect;
+package tradeautomation.advice;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
-import org.aspectj.lang.annotation.Aspect;
-import org.springframework.stereotype.Component;
 
-@Aspect
-@Component
-public class LogAspct {
-
+public class LogAspect {
     /**
      * コントローラークラスgのログ出力用アスペクト.
      */
